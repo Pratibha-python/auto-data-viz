@@ -1,0 +1,46 @@
+:root {
+  --bg-base:      #080b13;
+  --bg-surface:   #0f1421;
+  --bg-card:      #141929;
+  --bg-input:     #1a2035;
+  --border:       #252d45;
+  --border-hover: #363f60;
+  --accent:       #6366f1;
+  --accent-glow:  rgba(99, 102, 241, 0.35);
+  --accent-2:     #22d3ee;
+  --accent-3:     #f472b6;
+  --text-primary: #f0f4ff;
+  --text-secondary:#94a3b8;
+  --text-muted:   #4a5568;
+  --success:      #34d399;
+  --error:        #f87171;
+  --warning:      #fbbf24;
+  --radius:       12px;
+  --radius-lg:    18px;
+  --shadow:       0 4px 24px rgba(0,0,0,0.5);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-surface); }
+::-webkit-scrollbar-thumb { background: var(--border-hover); border-radius: 10px; }
+
+/* Selection */
+::selection { background: var(--accent-glow); }
+
+/* Utility */
+.mono { font-family: "DM Mono", monospace; }
