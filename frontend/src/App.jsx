@@ -151,7 +151,10 @@ export default function App() {
     formData.append("file", file);
 
     try {
-      const res = await fetch("/upload", { method: "POST", body: formData });
+      const res = await fetch(
+        "https://auto-data-viz-backend.onrender.com/upload",
+        { method: "POST", body: formData }
+      );
       const data = await res.json();
       if (!res.ok) throw new Error(data.detail || "Server error");
       setResult(data);
