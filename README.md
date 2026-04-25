@@ -82,3 +82,18 @@ Any CSV with mixed columns works great. Examples:
 - Survey results (multiple numeric columns)
 - Stock prices (date + price columns)
 - Iris dataset, Titanic dataset, etc.
+
+---
+
+# 🚀 Auto Data Visualization Tool
+
+🔗 **Live Demo:** https://auto-data-viz-iv5q.vercel.app/
+
+---
+
+# Output Page
+
+<img width="1813" height="956" alt="image" src="https://github.com/user-attachments/assets/d909168d-b736-4512-ad71-37cdab890174" />
+
+<img width="1763" height="964" alt="image" src="https://github.com/user-attachments/assets/b41dfa7e-45ac-48f4-8374-c4588f7501bd" />
+
